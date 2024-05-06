@@ -1,0 +1,231 @@
+<%- include("partials/header"); -%>
+
+<section class="blog-area blog-page section-padding">
+<div class="container">
+
+<div class="row">
+  <%  post.forEach((post) => {%>
+    <% console.log(post); %>
+
+
+    <div class="col-md-8 col-lg-8 col-sm-12 col-xs-12">
+      <div class="single-blog wow fadeIn">
+      <div class="blog-image">
+      <img src="img/blog/xblog_7.jpg.pagespeed.ic.S3o8pWoi4f.jpg" alt="">
+      </div>
+      <div class="blog-details">
+      <div class="blog-meta"><a href="#"><i class="fa fa-ship"></i></a></div>
+      <h3>
+        <!-- <a href="single-blog.html">Quick Transportation Service in the world</a> -->
+        <a href="#"><%= post.title %></a>
+      </h3>
+      <div class="post-date">
+        <a href="#"><i class="fa fa-calendar"></i>20 January, 2015</a>
+      </div>
+      <p> <%= post.postContent %></p>
+
+      <p> <%= post.postText %></p>
+      <a href="single-blog.html" class="read-more">Read More</a>
+      </div>
+      </div>
+    </div>
+
+    RemoteSigned
+    Set-ExecutionPolicy Unrestricted
+
+  <%});%>
+
+<div class="col-md-4 col-lg-4 col-sm-12 col-xs-12">
+<div class="sidebar-area wow fadeIn">
+<div class="single-sidebar-widget widget_search">
+<h4>Search</h4>
+<form action="#">
+<input type="text" name="s" id="s" placeholder="Search Here...">
+<button type="submit"><i class="fa fa-search"></i></button>
+</form>
+</div>
+<div class="single-sidebar-widget widget_categories">
+<h4>Categories</h4>
+<ul>
+<li><a href="#">Road Freight</a></li>
+<li><a href="#">Air Freight</a></li>
+<li><a href="#">Sea Freight</a></li>
+<li><a href="#">Ware House Freight</a></li>
+<li><a href="#">Rail Freight</a></li>
+</ul>
+</div>
+<div class="single-sidebar-widget widget_recent_entries">
+<h4>Latest Post</h4>
+<ul>
+<li>
+<div class="alignleft"><img src="img/blog/thumb-1.jpg" alt=""></div>
+<a href="#">2016 Latest News From Logistics Transportation Service.</a>
+</li>
+<li>
+<div class="alignleft"><img src="img/blog/thumb-2.jpg" alt=""></div>
+<a href="#">2016 Latest News From Logistics Cargo Service.</a>
+</li>
+<li>
+<div class="alignleft"><img src="img/blog/thumb-3.jpg" alt=""></div>
+<a href="#">2016 Latest News From Logistics Transportation Service.</a>
+</li>
+<li>
+<div class="alignleft"><img src="img/blog/thumb-4.jpg" alt=""></div>
+<a href="#">2016 Latest News From Logistics Cargo Service.</a>
+</li>
+</ul>
+</div>
+<div class="single-sidebar-widget widget_tag_cloud">
+<h4>Pupular Tags</h4>
+<div class="tagcloud">
+<a href="#">Design</a>
+<a href="#">Transport</a>
+<a href="#">Cargo</a>
+<a href="#">Freight</a>
+<a href="#">Logistic</a>
+<a href="#">Truck</a>
+<a href="#">Shipping</a>
+<a href="#">ware house</a>
+</div>
+</div>
+</div>
+</div>
+</div>
+<div class="row">
+<div class="col-md-12 col-xs-12">
+<ul class="pagination">
+<li><a href="#"><i class="fa fa-angle-left"></i></a></li>
+<li class="active"><a href="#">1</a></li>
+<li><a href="#">2</a></li>
+<li><a href="#">3</a></li>
+<li><a href="#">4</a></li>
+<li><a href="#"><i class="fa fa-angle-right"></i></a></li>
+</ul>
+</div>
+</div>
+</div>
+</section>
+
+
+<div class="footer-area dark-bg">
+<div class="footer-area-bg"></div>
+<div class="footer-top-area wow fadeIn">
+<div class="container">
+<div class="row">
+<div class="col-md-6 col-lg-6 col-sm-12 col-xs-12">
+<div class="subscribe-content">
+<h2>Weekly Newsletter</h2>
+<p>There are many vaiations of passages of lorem ipsum available.</p>
+</div>
+</div>
+<div class="col-md-6 col-lg-6 col-sm-12 col-xs-12">
+<div class="subscriber-form-area">
+<form action="#" class="subsriber-form">
+<label for="subscriber-mail"><i class="fa fa-envelope-o"></i></label>
+<input type="email" name="subscriber-mail" id="subscriber-mail" placeholder="Enter Your Mail">
+<button type="submit">subscribe</button>
+</form>
+</div>
+</div>
+</div>
+<div class="row">
+<div class="col-md-12">
+<div class="footer-border"> </div>
+</div>
+</div>
+</div>
+</div>
+<div class="footer-bottom-area wow fadeIn">
+<div class="container">
+<div class="row">
+<div class="col-md-3 col-lg-3 col-sm-6 col-xs-12">
+<div class="single-footer-widget footer-about">
+<h3>About Us</h3>
+<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+<ul>
+<li><i class="fa fa-phone"></i> <a href="callto:+8801911854378">+8801911854378</a></li>
+<li><i class="fa fa-map-marker"></i> <a href="https://preview.colorlib.com/cdn-cgi/l/email-protection#e88a898b839881988d9ac68b8785a88f85898184c68b8785"><span class="__cf_email__" data-cfemail="accecdcfc7dcc5dcc9de82cfc3c1eccbc1cdc5c082cfc3c1">[email&#160;protected]</span></a></li>
+<li><i class="fa fa-phone"></i> Gazipur, 1704, Bangladesh.</li>
+</ul>
+</div>
+</div>
+<div class="col-md-3 col-lg-3 col-sm-6 col-xs-12">
+<div class="single-footer-widget twitter-widget">
+<h3>Latest Tweets</h3>
+<ul>
+<li>
+<div class="twitter-icon"><i class="fa fa-phone"></i></div>
+<div class="tweet-detail">
+<p>Sed ut perspiciatis unde omnis iste natus error sit voluptatem .</p>
+<a href="#" class="tweet-meta">5 Miniutes Ago</a>
+</div>
+</li>
+<li>
+<div class="twitter-icon"><i class="fa fa-phone"></i></div>
+<div class="tweet-detail">
+<p>Sed ut perspiciatis unde omnis iste natus error sit voluptatem .</p>
+<a href="#" class="tweet-meta">5 Miniutes Ago</a>
+</div>
+</li>
+</ul>
+</div>
+</div>
+<div class="col-md-3 col-lg-3 col-sm-6 col-xs-12">
+<div class="single-footer-widget list-widget">
+<h3>Customer Service</h3>
+<ul>
+<li><a href="#">Support Forums</a></li>
+<li><a href="#">Communication</a></li>
+<li><a href="#">FAQS</a></li>
+<li><a href="#">Privacy Policy</a></li>
+<li><a href="#">Rules & Condition</a></li>
+<li><a href="#">Contact Us</a></li>
+</ul>
+</div>
+</div>
+<div class="col-md-3 col-lg-3 col-sm-6 col-xs-12">
+<div class="single-footer-widget instafeed-widget">
+<h3>Customer Service</h3>
+<ul>
+<li><a href="#"><img src="img/instafeed/x1.jpg.pagespeed.ic.EPtg_hvyXn.jpg" alt=""></a></li>
+<li><a href="#"><img src="img/instafeed/x2.jpg.pagespeed.ic.86DM1PWeYo.jpg" alt=""></a></li>
+<li><a href="#"><img src="img/instafeed/x3.jpg.pagespeed.ic.Ww0PQpuYCy.jpg" alt=""></a></li>
+<li><a href="#"><img src="img/instafeed/x4.jpg.pagespeed.ic.CfVooYE4mW.jpg" alt=""></a></li>
+<li><a href="#"><img src="img/instafeed/x5.jpg.pagespeed.ic.Dg7qJitgyv.jpg" alt=""></a></li>
+<li><a href="#"><img src="img/instafeed/x6.jpg.pagespeed.ic.VIzFfXOwP4.jpg" alt=""></a></li>
+</ul>
+</div>
+</div>
+</div>
+<div class="row">
+<div class="col-md-12">
+<div class="footer-border"> </div>
+</div>
+</div>
+</div>
+</div>
+<div class="footer-copyright-area">
+<div class="container">
+<div class="row">
+<div class="col-md-6 col-lg-6 col-sm-12 col-xs-12">
+<div class="footer-copyright wow fadeIn">
+
+<p>Copyright &copy;<script data-cfasync="false" src="../../cdn-cgi/scripts/5c5dd728/cloudflare-static/email-decode.min.js"></script><script>document.write(new Date().getFullYear());</script> All rights reserved | This template is made with <i class="fa fa-heart-o" aria-hidden="true"></i> by <a href="https://colorlib.com/" target="_blank">Colorlib</a></p>
+
+</div>
+</div>
+<div class="col-md-6 col-lg-6 col-sm-12 col-xs-12">
+<div class="footer-social-bookmark text-right wow fadeIn">
+<ul class="social-bookmark">
+<li><a href="#"><i class="fa fa-facebook"></i></a></li>
+<li><a href="#"><i class="fa fa-vimeo"></i></a></li>
+<li><a href="#"><i class="fa fa-twitter"></i></a></li>
+<li><a href="#"><i class="fa fa-behance"></i></a></li>
+<li><a href="#"><i class="fa fa-dribbble"></i></a></li>
+</ul>
+</div>
+</div>
+</div>
+</div>
+</div>
+<%- include("partials/footer"); -%>
